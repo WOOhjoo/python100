@@ -156,8 +156,25 @@
 #.randint(,)
 
 # import random
-# random_int = random.randint(1,10)
+# random_int = random.randint(1,10) #1과 10사이의 수를 랜덤으로 추출함
 # print(random_int)
+
+
+#모듈만들기
+# import random
+# import module #모듈 불러오기 파일명
+
+# print(module.pi) #파일명,변수명 
+
+
+
+#부동소수점 난수생성
+random_float = random.random() #0~1 소수점출려ㅓㄱ
+print(random_float)
+
+random_float = random.random()*5 # 0~4.99999사이의 소수점출력
+print(random_float)
+
 
 #로또번호를 생성해보자
 
